@@ -1,0 +1,15 @@
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\bin\Debug\net8.0\moment3.exe
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\bin\Debug\net8.0\moment3.deps.json
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\bin\Debug\net8.0\moment3.runtimeconfig.json
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\bin\Debug\net8.0\moment3.dll
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\bin\Debug\net8.0\moment3.pdb
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.AssemblyInfoInputs.cache
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.AssemblyInfo.cs
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.csproj.CoreCompileInputs.cache
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.sourcelink.json
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.dll
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\refint\moment3.dll
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.pdb
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\moment3.genruntimeconfig.cache
+C:\Users\Alexa\Miun\Webbutveckling\C#.NET\moment3\obj\Debug\net8.0\ref\moment3.dll
