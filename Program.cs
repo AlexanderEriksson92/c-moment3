@@ -75,6 +75,7 @@ public class GuestBook
               count++;
               Console.Clear();
               Console.WriteLine("Inlägget tillagt");
+              Console.WriteLine();
         }
     }
 
@@ -84,6 +85,7 @@ public class GuestBook
         if (index < 0 || index >= count)
         {
             Console.WriteLine("Inlägget finns inte");
+            Console.WriteLine();
             return;
         }
         else
@@ -92,7 +94,9 @@ public class GuestBook
             {
             posts[i] = posts[i + 1];
             }
+            Console.Clear();    
             Console.WriteLine("Inlägget borttaget");
+            Console.WriteLine();
             count--;
         }
     }
@@ -102,12 +106,11 @@ public class GuestBook
         if (count > 0)
         for (int i = 0; i < count; i++)
         {
-            
-            Console.WriteLine($"{i + 1}. {posts[i].Name} {posts[i].Message}");
-           
+            Console.WriteLine($"{i + 1}. {posts[i].Name} | {posts[i].Message}");
         }
         else {
             Console.WriteLine("Inga inlägg hittates");
+            Console.WriteLine();
         }
     }
 
