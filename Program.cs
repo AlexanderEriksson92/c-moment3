@@ -24,15 +24,24 @@ while (true)
 
             case "2":
             Console.Clear();
-                Console.WriteLine("Vilket inlägg vill du ta bort?");
-                var entry = Convert.ToInt32(Console.ReadLine());
-                GuestBook.RemovePost(entry);
+                Console.WriteLine("Vilket inlägg vill du ta bort? Vänligen ange inläggets ID");
+                 GuestBook.ShowAllPosts();
+                if (int.TryParse(Console.ReadLine(), out int entry) && entry > 0)
+                {
+                    GuestBook.RemovePost(entry);
+                }
+                else
+                {
+                    Console.WriteLine("Felaktig inmatning");
+                }
+        
                 break;
 
             case "3":
             Console.Clear();
-            Console.WriteLine("Alla inlägg");
+            Console.WriteLine("Alla inlägg: ");
                   GuestBook.ShowAllPosts();
+                  Console.WriteLine();
                 break;
 
             case "x":
@@ -64,6 +73,8 @@ public class GuestBook
         {
            posts[count] = new GuestBookPost(name, message);
               count++;
+              Console.Clear();
+              Console.WriteLine("Inlägget tillagt");
         }
     }
 
@@ -81,15 +92,22 @@ public class GuestBook
             {
             posts[i] = posts[i + 1];
             }
+            Console.WriteLine("Inlägget borttaget");
             count--;
         }
     }
 
     public static void ShowAllPosts()
     {
+        if (count > 0)
         for (int i = 0; i < count; i++)
         {
+            
             Console.WriteLine($"{i + 1}. {posts[i].Name} {posts[i].Message}");
+           
+        }
+        else {
+            Console.WriteLine("Inga inlägg hittates");
         }
     }
 
